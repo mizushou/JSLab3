@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <body>
+    <p id="demo"></p>
+    <script type="text/javascript">
+    let DL = 5;
+    let d = [25.0,9.0,10.0,25.0,15.0]
+    let mi = 0;
+    let m = d[mi];
+    for(let i=0; i<DL; i++){
+      if (d[i] < m) {
+        mi = i;
+        m = d[mi];
+        console.log(m);
+      }
+    };
+    console.log("mi=",mi,"m=",m);
+    </script>
+  </body>
+</head>
+</html>

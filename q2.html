@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <body>
+    <p id="demo"></p>
+    <script type="text/javascript">
+    function sumArray(arr) {
+      let sum = 0;
+      for(let i=0; i<arr.length; i++){
+        sum = sum + arr[i];
+      };
+      return sum;
+    }
+
+    arr1 = [15,20,25,30,35];
+    res1 = sumArray(arr1);
+    document.getElementById("demo").innerHTML = res1;
+    </script>
+  </body>
+</head>
+</html>

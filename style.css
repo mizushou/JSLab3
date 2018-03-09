@@ -1,0 +1,6 @@
+.table1 {
+  border: 1px solid gray;
+}
+.table1 th, .table1 td {
+  border: 1px solid gray; width: 150px; height: 100px; text-align: center;
+}
